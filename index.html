@@ -1,0 +1,33 @@
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Animated JS Form</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="form-container" id="formContainer">
+    <h1>Registration Form</h1>
+
+    <form id="myForm">
+      <input type="text" id="name" placeholder="Enter Name">
+      <input type="date" id="dob">
+      <input type="number" id="age" placeholder="Enter Age">
+      <input type="text" id="state" placeholder="Enter State">
+      <input type="text" id="country" placeholder="Enter Country">
+
+      <button type="submit" id="submitBtn">
+        Submit
+      </button>
+    </form>
+
+    <div id="successBox">
+      ✅ Form Submitted Successfully
+    </div>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
